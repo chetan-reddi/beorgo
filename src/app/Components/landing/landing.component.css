@@ -1,0 +1,200 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+
+.btn .fa {
+  margin-left: 3px;
+}
+
+.top-nav-collapse {
+  background-color: #424f95 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #424f95 !important;
+  }
+}
+
+.btn-white {
+  color: black !important;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+  background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+}
+
+.navbar-dark .navbar-nav >.nav-link, .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  font: normal normal bold 20px/33px Poppins;
+  letter-spacing: 0px;
+  color: #060606;
+  opacity: 1;
+}
+.beorgo-navbar-brand{
+  display:block;
+  width: 100%;
+  height: auto;
+}
+header .beorgo-navbar{
+  background: #e6eef0 !important;
+}
+.navbar-header img {
+  height: 40px;
+  margin: 5px;
+}
+.what_do_we_do{
+background-image: url("../../../assets/img/Group1703.png");
+}
+.img_warpper img{
+width: 100%;
+}
+.text_on_image{
+  justify-content:center;
+  align-items: center;
+}
+.lower_wrapper {
+  margin-top: 10%;
+}
+.upper_wrapper .img_warpper{
+  margin-top: 10%;
+}
+.p_5{
+  padding:5%;
+}
+.feature_container{
+  background: #000000;
+  /* background-image: url("../../../assets/img/Group1713.png"); */
+}
+.image_fit{
+  width:150px;
+}
+.image_fit img{
+  padding:10px;
+}
+.feature_container .container .row .col-md-3 h6, .feature_container .container .row .col-md-3 p{
+color:#fff;
+}
+.image_bottom{
+  margin-top:10px;
+}
+.second_li{
+ text-align:left;
+ padding-left:10px;
+
+}
+/* testimonial slider */
+.card .carousel-item {
+  height: 200px;
+}
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.navi a {
+    text-decoration:none;
+}
+a > .ico {
+    background-color: grey;
+    padding: 10px;
+
+}
+a:hover > .ico {
+    background-color: #666;
+}
+.what_we_do_container{
+  background-image: url("../../../assets/img/Group1703.png");
+  background-position: center;
+}
+.testinmonial {
+  background-image: url("../../../assets/img/Group1713.png");
+  background-position: center;
+}
+.navbar-nav .nav-item .nav-link {
+  letter-spacing: 0px;
+    color: #060606;
+    opacity: 1;
+    font-weight: 800;
+    padding: 10px 40px;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+}
+.testinmonial .container h6 , .testinmonial .container h4{
+    color:#ffff;
+}
+.form-rounded {
+  border-radius: 1rem;
+  }
+.subcribe_row{
+  display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-subscribe{
+  background:#619E1B;
+  color:#fff;
+  border-radius:2rem;
+}
+.footer_sec{
+  background-image: url("../../../assets/img/MaskGroup2.png");
+  /* background-position: center; */
+}
+.page-footer .container h5 , .page-footer .container ul li a ,.page-footer .container p, .footer-copyright ul li .fa,.page-footer .container p, .footer-copyright span{
+ color:#FFFFFF;
+}
+
+.pb-pt-10-4{
+  padding-top: 10.5rem !important;
+    padding-bottom: 3rem !important;
+}
+.footer-copyright ul li{
+  display: inline-block;
+  list-style-type: none;
+  padding:10px;
+}

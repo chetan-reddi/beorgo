@@ -1,0 +1,239 @@
+<p>
+  contactus works!
+</p>
+<header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top beorgo-navbar">
+      <div class="container">
+        <a class="navbar-brand beorgo-navbar-brand" href="#">
+            <img src="../../../assets/img/logo.png" style="width:100%;max-width:200px">
+            </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" (click)="isShown = !isShown" [attr.aria-expanded]="isShown"  aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" [ngClass]="{ 'show': isShown }" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto beorgo-navbar">
+            <li class="nav-item active">
+              <a class="nav-link" (click)="isShown = false" href="#">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="isShown = false" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="isShown = false" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="isShown = false" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Full Page Intro -->
+
+
+
+    <!-- Full Page Intro -->
+  </header>
+  <main style="position: relative; top: 120px;">
+      <div class="relative_top" >
+          <div class="view" style="background-image: url('../../../assets/img/Group1717.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-gradient align-items-center">
+              <!-- Content -->
+              <div class="container">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-6 white-text text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
+                    <h4 class="h1-responsive font-weight-bold mt-sm-5">About Us</h4>
+                    <h6 class="mb-4">Home/About Us</h6>
+                    <a class="btn ">DISCOVER MORE</a>
+                  </div>
+                  <!--Grid column-->
+                  <!--Grid column-->
+                  <!-- <div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.3s">
+                  </div> -->
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+          </div>
+      </div>
+      <div class="container pt-4">
+          <h4 class="" style="color:#619E1B;">Contact Us</h4>
+          <div class="row">
+              <div class="col-md-3" style="display: flex;">
+                  <div class="col-md-2">
+                    <img src="../../../assets/img/ic_cloud_24px.png">
+                  </div>
+                  <div class="col-md-10">
+                    <h6>Address</h6>
+                    <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                  </div>
+              </div>
+              <div class="col-md-3" style="display: flex;">
+                  <div class="col-md-2">
+                    <img src="../../../assets/img/ic_cloud_24px.png">
+                  </div>
+                  <div class="col-md-10">
+                    <h6>Email</h6>
+                    <p>Info@beorgo.com</p>
+                  </div>
+              </div>
+              <div class="col-md-3" style="display: flex;">
+                  <div class="col-md-2">
+                    <img src="../../../assets/img/ic_cloud_24px.png">
+                  </div>
+                  <div class="col-md-10">
+                    <h6>Call Support</h6>
+                    <p>+91 040 - 48795846</p>
+                  </div>
+              </div>
+              <div class="col-md-3" style="display: flex;">
+                  <div class="col-md-2">
+                    <img src="../../../assets/img/ic_cloud_24px.png">
+                  </div>
+                  <div class="col-md-10">
+                    <h6>Website</h6>
+                    <p>www.beorgo.com</p>
+                  </div>
+              </div>
+          </div>
+          <hr class="hr-line">
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                <div class="wrapper">
+                  <img src="../../../assets/img/Group 1412.png" width="100%">
+                </div>
+              </div>
+              <div class="col-md-6">
+                  <h4>Send us A Message</h4>
+                  <form>
+                      <div class="form-row mb-4">
+                        <div class="col">
+                          <input type="text" class="form-control" id="email" placeholder="Enter email *" name="email">
+                        </div>
+                        <div class="col">
+                          <input type="Name" class="form-control" placeholder="Enter your Name *" name="name">
+                        </div>
+                        <br>
+                      </div>
+                      <div class="form-row mb-4">
+                          <div class="col">
+                            <input type="text" class="form-control" id="subject" placeholder="your subject" name="">
+                          </div>
+                          <div class="col">
+                            <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+                          </div>
+                          <br>
+                      </div>
+                      <div class="form-row ">
+                          <div class="col">
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <br>
+                      </div>
+                    </form>
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid footer_sec ">
+      <footer class="page-footer font-small blue pb-pt-10-4">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Contact info</h5>
+
+        <p>
+            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          <p>
+            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 mb-md-0 mb-3">
+        <!-- Links -->
+        <h5 class="text-uppercase">Service Providers</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Help Center</a>
+          </li>
+          <li>
+            <a href="#!">Returns</a>
+          </li>
+          <li>
+            <a href="#!">Product</a>
+          </li>
+          <li>
+            <a href="#!">Recalls</a>
+          </li>
+          <li>
+            <a href="#!">Accessibility</a>
+          </li>
+            <li>
+            <a href="#!">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-md-4 mt-md-0 mt-3">
+          <!-- Content -->
+          <h5 class="text-uppercase">About Us</h5>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+      <!-- Copyright -->
+
+      <div class="footer-copyright text-center py-3">
+        <div class="row">
+          <div class="col-md-6">
+              <span>Copyright ©2020 beogro.com. All Rights Reserved</span>
+          </div>
+          <div class="col-md-6">
+              <ul>
+                <li><i class="fa fa-facebook" aria-hidden="true"></i>
+                </li>
+                <li><i class="fa fa-pinterest" aria-hidden="true"></i>
+                </li>
+                <li> <i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li> <i class="fa fa-twitter" aria-hidden="true"></i></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+      </div>
+  </main>
